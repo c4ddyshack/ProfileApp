@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "highScore": {
+      "type": "integer"
+    },
+    "wysCoUN7EsQCBYsLVbPQXVR0hCr2": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["image", "name"],
+      "additionalProperties": false
+    },
+    "yjzsGBF4XIM0HSqMrgEeqMlIExl1": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["image", "name"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["highScore", "wysCoUN7EsQCBYsLVbPQXVR0hCr2", "yjzsGBF4XIM0HSqMrgEeqMlIExl1"],
+  "additionalProperties": false
+}
